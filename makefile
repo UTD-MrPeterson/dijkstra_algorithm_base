@@ -1,7 +1,7 @@
-test1: clean compile testInsert
-test2: clean compile testSearches
-test3: clean compile testRemovals
-test4: clean compile testRebalance
+test1: clean compile testSimple
+test2: clean compile testFiveElement
+test3: clean compile testCantGoAnywhere
+test4: clean compile testCanGoEverywhere
 
 clean:
 	rm -f test
