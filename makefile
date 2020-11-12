@@ -7,7 +7,7 @@ clean:
 	rm -f test
   
 compile: main.cpp
-	g++ -I . -o test main.cpp
+	g++ -I . -o test main.cpp DijkstraAlgorithm.cpp Graph.cpp Vertex.cpp
   
 testSimple:
 	./test 0
